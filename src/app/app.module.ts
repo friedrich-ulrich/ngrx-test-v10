@@ -9,13 +9,12 @@ import { PostComponent } from './post/post.component';
 
 @NgModule({
   declarations: [AppComponent, ButtonComponent, PostComponent],
-  imports: [BrowserModule, ReactiveComponentModule],
+  imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class AppModule {
-
   constructor(injector: Injector) {
     // customElements.define(
     //   'local-post',
