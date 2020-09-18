@@ -1,7 +1,3 @@
 <p>post works!</p>
 
-<app-button [o]="v$ | ngrxPush"></app-button>
-
-<!--
-    <app-button *ngrxLet="v$ as v" [o]="v"></app-button>
--->
+<app-button [o]="v$ | push"></app-button>
